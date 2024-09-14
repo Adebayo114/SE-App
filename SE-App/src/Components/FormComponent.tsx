@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import vids from '../assets/Media/pexels-nicole-michalou-5754819 (2160p) (1).mp4';
 import '../Styles/FormComponent.css';
 
+
 const FormComponent: React.FC = () => {
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
